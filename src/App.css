@@ -1,0 +1,79 @@
+body{
+  margin: 6 rem;
+  padding: 20px;
+ background-image: url('back2.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.header{
+  padding: 20px;
+  height: 150px;
+  display: block;
+}
+.header img{
+  width: 350px;
+  height: 150px;
+}
+.header a{
+  font-size: 25px;
+  font-weight: bold;
+  position:relative;
+top:55px;  
+  color: rgb(11, 227, 235);
+  float: right;
+  text-decoration: none;
+  padding: 10px;
+  
+  
+ 
+}
+
+
+.header a:hover{
+  border-radius:10px ;
+  transition:color 0.5s ease-in-out ;
+
+  color:white;
+  text-decoration: underline;
+  
+}
+@media (max-width: 760px) {
+  .header a{
+    font-size: 20px;
+  }
+  
+}
+.animate{
+  backdrop-filter: blur(8px);
+  
+  width: 400px;
+  height: 340px;
+  border-radius: 20px;
+  border: 1px solid white;
+  left: 40px;float: left;
+ 
+  margin: 20px;
+}
+.animate h2{
+  padding-left: 10px;
+}
+.anim{
+  padding: 20px;
+}
+.animate a{
+  padding: 15px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  
+}
+.footer{
+  background-color: black;
+height: 100px;
+color: white;
+width: 100%;
+float: right;
+
+}.interface1{
+ align-items: center;
+}
