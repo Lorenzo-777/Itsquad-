@@ -1,11 +1,12 @@
 body{
-  margin: 6 rem;
-  padding: 20px;
+  margin: 0rem;
+  padding: 0px;
  background-image: url('back2.jpg');
   background-size: cover;
   height: 100vh;
 }
 .header{
+  margin-left: 2rem;
   padding: 20px;
   height: 150px;
   display: block;
@@ -43,6 +44,9 @@ top:55px;
   }
   
 }
+.interface1{
+  margin-left: 40px;
+}
 .animate{
   backdrop-filter: blur(8px);
   
@@ -76,4 +80,53 @@ float: right;
 
 }.interface1{
  align-items: center;
+}
+.form-container form{
+  color: white;
+width: 430px;
+height: 100vh;
+backdrop-filter: blur(8px);
+border: 0.5px solid skyblue;
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+
+
+}.form-container input{
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: 16px;
+}.form-container label{
+  margin-left: 30px;
+}.form-container button{
+  text-align: center; 
+  background-color: rgb(11, 227, 235);
+  width: 370px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  margin-left: 30px;
+}.form-container span{
+  padding-left: 50px;
+  }.form-container a{
+  padding-left: 30px;
+ 
+  color:rgb(5, 135, 158)
+}
+@media (min-width:1060px) {
+  
+
+.fcontainer{
+  position: relative;
+  left: 30%;
+}
+}
+
+  
+
+
+.space{
+  height: 20px;
 }
